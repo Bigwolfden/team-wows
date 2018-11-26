@@ -1,0 +1,102 @@
+/* Tags */
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+header{
+	height: 10%;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	background-color: #be2edd;
+/*	background-color: rgba(142,180,227,1);*/
+	z-index: 999;
+	opacity: .8;
+}
+blockquote {
+	width: 30%;
+	display: inline-block;
+	text-align: right;
+	border: none;
+}
+button {
+	background-color: blue;
+	height: 50%;
+	color: white;
+	font-size: 20px;
+	border: none;
+	border-radius: 2px;
+}
+nav{
+	height: 100%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: ;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+nav li {
+    float: left;
+		width: 16%;
+		border: 2px solid white;
+		border-radius: 5px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgba(150,189,235,1);
+		cursor: pointer;
+}
+footer {
+	height: 30%;
+	width: 100%;
+	background-color: #0F0F0F;
+}
+main {
+	height: 80%;
+}
+/* Ids */
+
+/* Classes */
+.topper {
+	width: 100%;
+	height: 10%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+/*Carousel stuff*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+ol.carousel-indicators li {
+	border-radius: 0;
+}
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+	border-radius: 200px;
+}
+span {
+	color: #0F0F0F;
+	border: 2px solid #0F0F0F;
+	text-align: center;
+	border-radius: 5px;
+}
